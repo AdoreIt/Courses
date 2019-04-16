@@ -1,4 +1,4 @@
-#include "hello.hpp"
+#include <hello-lib/hello.hpp>
 
 int main()
 {

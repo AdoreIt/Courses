@@ -1,11 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
+project(Hello_CMake VERSION 1.0.0)
 
-add_library(
-    hello_lib
-    hello.cpp
-    hello.hpp
-)
-
-add_executable(hello_cmake main.cpp)
-
-target_link_libraries(hello_cmake hello_lib)
+add_subdirectory(hello-lib)
+add_subdirectory(hello-exe)
