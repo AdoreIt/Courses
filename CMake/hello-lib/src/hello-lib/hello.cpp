@@ -3,5 +3,6 @@
 
 void Hello::helloCmake()
 {
-    std::cout << "Hello CMake!";
+    std::cout << "Hello CMake! from hello-lib version " << HELLO_CMAKE_VERSION
+              << '\n';
 }
